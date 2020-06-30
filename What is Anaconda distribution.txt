@@ -1,0 +1,15 @@
+Anaconda is a scientific Python distribution. It has no IDE of its own. The default IDE bundled with Anaconda is Spyder which is just another Python package that can be installed even
+without Anaconda.
+
+Anaconda bundles a whole bunch of Python packages that are commonly used by people using Python for scientific computing and/or data science. It provides a single download and an install
+program/script that installs all the packages in one go. Alternatively, one can install Python first and then individually install all the required packages using pip.
+
+Additionally, it provides its own package manager (conda) and package repository. But it allows installation of packages from PyPI using pip if the package is not in Anaconda repositories.
+It is especially good if you are installing on Microsoft Windows as it can easily install packages that would otherwise require you to install C/C++ compilers and libraries if you were
+using pip. It is certainly an added advantage that conda, in addition to being a package manager, is also a virtual environment manager allowing you to install independent development
+environments and switch from one to the other (similar to virtualenv).
+
+There is a minimal Anaconda Python without all the packages, called Miniconda. After installing miniconda, you can use conda and install only those scientific packages that you wish
+and avoid a bloated installation.
+
+In summary, there is no Anaconda IDE, it is just Spyder.
