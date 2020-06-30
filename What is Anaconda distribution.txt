@@ -12,4 +12,4 @@ environments and switch from one to the other (similar to virtualenv).
 There is a minimal Anaconda Python without all the packages, called Miniconda. After installing miniconda, you can use conda and install only those scientific packages that you wish
 and avoid a bloated installation.
 
-In summary, there is no Anaconda IDE, it is just Spyder.
+In summary, there is no Anaconda IDE, it is just Spyder only.
